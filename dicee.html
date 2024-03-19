@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>The Ultimate Dice Game🎲</title>
+    <title>Dice Game🎲</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
   </head>
@@ -23,11 +23,15 @@
 
     </div>
 
-<script src="app.js"></script>
+<script src="dicee.js"></script>
 
   </body>
 
   <footer>
-     🎲 Tunde Fadipe © 2022.
+    <script>
+      var copyRight = document. createElement("footer");
+      copyRight. innerHTML = "🎲 Tunde Fadipe &copy; " + new Date(). getFullYear() + " - All Rights Reserved";
+      document. body. appendChild(copyRight);
+    </script>
   </footer>
 </html>
